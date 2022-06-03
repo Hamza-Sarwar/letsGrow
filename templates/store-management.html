@@ -1,0 +1,200 @@
+{% extends 'base.html'%}
+{% load static %}
+{% block content %}
+
+
+<link rel="stylesheet" href="{% static 'css/en/store-management.css' %}">
+
+
+<header dir="rtl">
+
+    <div class="container">
+
+        <div class="row d-flex justify-content-center align-items-center">
+
+            <div class="col-md-6">
+
+                <img class="mx-auto" src="https://www.bevatel.com/assets/site-imgs/en/Auto-Dailer/auto-dialer-system.webp"
+
+                    loading="lazy" alt="Auto Dialer System" title="Auto Dialer System" style="width: 80%">
+
+            </div>
+
+            <div class="col-md-6 text-light">
+
+                <h1 class="h2-title text-light">Store Management</h1>
+
+                <p dir="ltr">LetsGrow.One is an outsourcing digital agency that provides store management facility for your
+                    businesses at Amazon, Shopify, E-commerce, eBay, WooCommerce, Estay, etc.
+                <p class="text-light ">
+
+                    <a class="text-light ml-2" href="index.html">Home</a>/
+
+                    <a class="text-light mx-2" href="#">Services</a>/
+
+                    <a class="text-success mx-2" href="#">Store Management</a>
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+
+<div class="container p-3 py-5">
+
+    <div class="row d-flex justify-content-center align-items-center" dir="ltr">
+
+        <div class="col-md-6">
+
+            <h2 class="h2-title">How LetsGrow Manages your Stores?</h2>
+
+            <div class="spacer my-3 left"></div>
+
+            <p class="card-text">Store Management is
+                the most important part in any online business nowadays. Absence of discipline in such manner might
+                cost the storekeeper to experience huge misfortunes. As the business environment is dynamic, it keeps
+                on changing with the ongoing technological transformation.</p>
+
+            <p class="card-text">Thus, unlike physical stores, eCommerce
+                stores require constant up-gradation to meet the requirements of modern-day technology. Store
+                management is a concern for many online retailers, drop shippers, private label sellers, and vendors that
+                how can we constantly keep always advancing unrest in the field of Information Technology</p>
+            <p class="card-text">Let’sGrow.one is an ace outsourcing agency that will never disappoint you. We also help you in dispute
+                resolution for your online stores and handle the disputes. Moreover if you want to promote your
+                business on different social sites we will always be available.</p>
+
+        </div>
+
+        <div class="col-md-6 text-center">
+
+            <img class="mx-auto" src="https://www.bevatel.com/assets/site-imgs/en/Auto-Dailer/auto-dialer-service.webp"
+
+                loading="lazy" alt="Auto Dialer Service" title="Auto Dialer Service" width="70%">
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<div class="container">
+
+
+    <div class="row my-md-5 my-3 p-3" style="background-color: #3640af">
+
+        <div class="col-md-12 text-center">
+
+            <h6 class="h2-title text-light">LetsGrow provides you with the finest store management solution with many
+                 features and uses for monitoring all operations, and help to improve customer service, sales, 
+                 and technical support
+            </h6>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<div class="container">
+
+    <div class="row info">
+
+        <div class="col-md-4">
+
+            <div class="card hvr-float small-shadow my-3">
+
+                <p class="card-text">Presentation (Listing of Products) of store and advertising displays</p>
+
+            </div>
+
+            <div class="card hvr-float small-shadow my-3">
+
+                <p class="card-text">Product management, including ordering, receiving, price changes, and returns</p>
+
+            </div>
+
+            <div class="card hvr-float small-shadow my-3">
+
+                <p class="card-text"> Problem solving, handling unusual circumstances</p>
+
+            </div>
+
+        </div>
+
+        <div class="col-md-4">
+
+            <img src="https://www.bevatel.com/assets/site-imgs/en/Auto-Dailer/auto-dialer-software.webp" alt="Auto Dialer Software" title="Auto Dialer Software" loading="lazy" class="w-100">
+
+        </div>
+
+        <div class="col-md-4">
+
+            <div class="card hvr-float small-shadow my-3">
+
+                <p class="card-text">Content Management and A+ Content Writing</p>
+
+            </div>
+
+            <div class="card hvr-float small-shadow my-3">
+
+                <p class="card-text">To handle problems and questions to customers</p>
+
+            </div>
+
+            <div class="card hvr-float small-shadow my-3">
+
+                <p class="card-text">Phone Support and Order Management</p>
+
+            </div>
+
+        </div>    
+
+    </div>
+
+</div>
+
+
+
+<div class="container">
+
+    <div class="row d-flex justify-content-center align-items-center">
+    <div class="col-md-6">
+        <img src="https://www.bevatel.com/assets/site-imgs/en/About-us/Bevatel-International-Modern-Corporation-for-Communications.webp" loading="lazy"
+        alt="Bevatel International Modern Corporation for Communications" class="w-100">
+    </div>
+    <div class="col-md-6 p-md-3">
+        <form id="leadform" name="WEbsite Request" class="p-3 requestleadform"
+            onsubmit="event.preventDefault();sendlead(event);" style="text-align: left !important">
+            <h3 class=" text-left" style="color: #0ed886">Request Service</h3>
+            <h5 class="">For more information simply contact us</h5>
+            <div class="form-group text-left"> <label for="name">Name*</label> <input type="text" id="rqstlead_name" data-label=""
+                    value="" required=""></div>
+            <div class="form-group text-left"> <label for="mobile">Mobile Number *</label> <input type="text" id="rqstlead_mobile"
+                    data-label="" value="" required=""></div>
+            <div class="form-group text-left"> <label for="email">Email*</label> <input type="email" id="rqstlead_email"
+                    data-label="" value="" required=""></div>
+            <div class="form-group text-left"> <label for="desc">Your Message</label><textarea
+                    id="rqstlead_description"></textarea></div> <input type="submit" id="bevarqsten"
+                value="Request Service">
+            <div id="rqstlead_info" style="color: red;text-align: center;padding-top: 10px;font-size: 1.2rem;"></div>
+        </form>
+    </div>
+</div>
+</div>
+
+
+
+{% endblock %}
+
+
+
+          

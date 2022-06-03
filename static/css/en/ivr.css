@@ -1,0 +1,59 @@
+
+header {
+    direction: rtl;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    background-image: url(/static/imgs/bg.webp);
+    background-position: bottom;
+    background-size: cover;
+    width: 100%;
+    min-height: 90vh;
+}
+
+
+.h2-title {
+    font-weight: 800;
+}
+
+p {
+    color: gray;
+}
+
+header p {
+    color: white
+}
+
+.spacer-green {
+    background-color: #0ed886 !important;
+    width: 15%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-success {
+    color: #0ed886 !important;
+}
+
+/* mp3 player */
+
+.bg{
+    background-image: url(../../../wp-content/uploads/2020/10/right-blue-dots-bg-129b0.html?id=4886) !important;
+    background-position: center;
+    background-size: contain;
+}
+
+.player{
+    border-radius: 10px;
+    box-shadow: 0 2px 5px 0 gray;
+}
+
+.card{
+    border: none !important
+}
+
+p.card-text {
+    font-size: 13px;
+}

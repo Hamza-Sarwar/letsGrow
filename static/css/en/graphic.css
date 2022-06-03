@@ -1,0 +1,90 @@
+header {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    background-image: url(/static/imgs/bg.webp);
+    background-position: bottom;
+    background-size: cover;
+    width: 100%;
+    min-height: 90vh;
+}
+
+.h2-title {
+    font-weight: 800;
+    direction: ltr;
+}
+
+p {
+    color: gray;
+}
+
+header p {
+    color: white
+}
+
+.spacer-green {
+    background-color: #0ed886 !important;
+    width: 15%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-success {
+    color: #0ed886 !important;
+}
+
+/* why-bevatel */
+
+.card{
+    border: none;
+    padding: 10px 20px;
+}
+
+.why-bevatel {
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+.why-bevatel .card {
+    border: none;
+    height: 100%;
+}
+
+.why-bevatel .col-md-6 {
+    padding: 20px 10px;
+}
+
+.why-bevatel img {
+    width: 60%;
+    float: right;
+}
+
+.card-text,
+.text-icon__text {
+    color: gray
+}
+
+img.align-center{
+    width: 50px !important;
+    height: 50px !important;
+}
+
+
+.why-bevatel .card{
+    background-color: #e7f1ff!important;
+    border: none;
+}
+
+.why-bevatel h2:first-of-type{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.why-bevatel .card-text,
+.why-bevatel .text-icon__text {
+    color: gray
+}

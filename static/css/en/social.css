@@ -1,0 +1,103 @@
+header {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    background-image: url(/static/imgs/bg.webp);
+    background-position: bottom;
+    background-size: cover;
+    width: 100%;
+    min-height: 90vh;
+}
+
+.h2-title {
+    font-weight: 800;
+}
+
+p {
+    color: gray;
+}
+
+header p {
+    color: white
+}
+
+.spacer-green {
+    background-color: #0ed886 !important;
+    width: 15%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-success {
+    color: #0ed886 !important;
+}
+
+.border-bottom{
+    width: 70%;
+}
+
+.image-outline {
+    outline: 5px solid #fff;
+    outline-offset: -4px;
+}
+
+/* packages */
+.package{
+    margin: 10px 0;
+    background: aliceblue;
+    border-radius: 0;
+    box-shadow: 0 2px 50px 0 rgb(224 224 224);
+    transition: 1s ease;
+    box-shadow: 0 2px 19px 0 lightblue;
+    border-radius: 10px;
+
+}
+
+.package h4{
+    color: #3a51b2;
+}
+
+.package p{
+    padding: 0 15px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    text-align: center;
+}
+.package-name {
+    background-color: transparent;
+    color: rgb(92, 92, 92);
+    padding: 15px 10px;
+    margin-bottom: 10px;
+}
+.package .btn-custom{
+    background-color: #3a51b2;
+    color: white;
+    margin-left: 12.5% !important;
+    margin-bottom: 10px;
+    transition: 1s ease;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+
+/* package on hover */
+
+.package:hover  .btn-custom {
+    background-color: #2b2494;
+    color: white;
+}
+
+.package:hover{
+    background-color: #3a51b2;
+}
+
+.package:hover .btn-custom{
+    background-color: #0ed886;
+}
+
+.package:hover .h2-title,
+.package:hover p{
+    color: white !important;
+}
