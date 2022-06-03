@@ -1,0 +1,178 @@
+header {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    background-image: url(/static/imgs/bg.webp);
+    background-position: bottom;
+    background-size: cover;
+    width: 100%;
+    min-height: 90vh;
+}.h2-title {
+    font-weight: 800;
+}p {
+    color: gray;
+}header p {
+    color: white
+}.spacer-green {
+    background-color: #0ed886 !important;
+    width: 15%;
+}a {
+    text-decoration: none;
+}.text-success {
+    color: #0ed886 !important;
+}.card:hover {
+    border: none;
+    -webkit-box-shadow: 0 5px 9px 0 rgb(56 143 214 / 40%);
+    -moz-box-shadow: 0 5px 9px 0 rgba(56, 143, 214, .4);
+    box-shadow: 0 5px 9px 0 rgb(56 143 214 / 40%) !important}
+
+    .why-bevatel .card{
+        text-align: right;
+    }
+/* features */
+.features {
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 25px;
+  }.features .card {
+    border: none
+  }.features img {
+    width: 50px
+  }.card {
+    background-color: transparent;
+    border-radius: 20px;
+    border: none;
+    transition: 1s all ease ;
+
+  }
+
+  
+/* packages */
+
+.nav-pills .nav-link{
+    background-color: transparent !important;
+    color: gray !important;
+    padding: 10px 60px;
+    border-bottom: 1px solid gray;
+    border-radius: 0 !important;
+    box-shadow: 0 2px 4px 0 lightgray !important;
+    
+    }
+    
+    .pricing-style-two {
+        position: relative;
+    }
+    
+    .pricing-block{
+        visibility: inherit;
+        animation-duration: 1500ms;
+        animation-delay: 0ms;
+        animation-name: fadeInUp;
+        opacity: 1;
+    }
+    
+    .pricing-block-two .pricing-table {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        background: #364a9f;
+        padding: 41px 15px 15px 15px;
+        margin-bottom: 15px;
+        border-radius: 10px;
+        transition: all 500ms ease;
+        box-shadow: 0 2px 26px 0 lightgrey;
+    }
+    
+    .table-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .package-img {
+        width: 60%;
+        padding: 0 10%;
+        margin: 0 10%;
+    }
+    
+    .pricing-block-two .pricing-table .table-header .package-title {
+        position: absolute;
+        top: 5%;
+        left: 0;
+        font-size: 18px;
+        padding: 2px 20px;
+        background: white;
+        line-height: 32px;
+        color: #364a9f;
+        font-weight: 500;
+        border-radius: 0 25px 25px 0;
+        margin-bottom: 3px;
+        transition: all 500ms ease;
+        box-shadow: -2px 4px 22px -9px rgb(126 118 232);
+    }
+    
+    .pricing-block-two .pricing-table .table-content {
+        position: relative;
+        display: block;
+    }
+    
+    .pricing-block-two .pricing-table .table-content li {
+        position: relative;
+        display: block;
+        font-size: 16px;
+        color: #fff;
+        margin-bottom: 8px;
+        transition: all 500ms ease;
+    }
+    
+    .pricing-block-two .pricing-table .table-footer a {
+        width: 100%;
+        position: relative;
+        display: inline-block;
+        background: #0ed886;
+        font-size: 16px;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0px;
+        border-radius: 10px;
+        box-shadow: -2px 4px 22px -9px rgb(126 118 232);
+    }
+    
+    .fixed-feature {
+        padding: 5px 10px;
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0.178);
+        width: 90%;
+        margin: 5px auto;
+    }
+    
+    .fa-check {
+        color: #0ed886;
+        margin-right: 17px !important;
+    }
+    
+    
+    button.nav-link.active{
+        background-color: rgb(33, 64, 154) !important;
+        color: white !important;
+    }
+    
+    .pricing-block-two .pricing-table:hover{
+        background-color: white;
+    }
+    
+    .pricing-block-two .pricing-table:hover li{
+        color: #435380;
+    }
+    
+    .pricing-block-two .pricing-table:hover a{
+        background: #21409a;
+    }
+    
+    .pricing-block-two .pricing-table:hover .table-header .package-title{
+        background: #21409a;
+        color: #ffffff;
+    }
+  
+    

@@ -1,0 +1,61 @@
+header {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    background-image: url(/static/imgs/bg.webp);
+    background-position: bottom;
+    background-size: cover;
+    width: 100%;
+    min-height: 90vh;
+}
+.h2-title {
+    font-weight: 800;
+}
+p {
+    color: gray;
+    direction: ltr;
+}
+
+.accordion-button::after {
+    margin-right: initial !important;
+    margin-left: auto !important;
+}
+
+header p {
+    color: white
+}
+.spacer-green {
+    background-color: #0ed886 !important;
+    width: 15%;
+}
+a {
+    text-decoration: none;
+}
+.text-success {
+    color: #0ed886 !important;
+}
+.hvr-shutter-out-vertical, .hvr-grow-shadow{
+    border: none !important;
+    background: white !important;
+    box-shadow: 0 2px 15px 0 lightblue;
+}
+.hvr-shutter-out-vertical:before{
+    background: #0ed886 !important
+}
+.hvr-shutter-out-vertical:hover p{
+    color: white !important;
+}
+.card img{
+    width: 100%
+}
+.card{
+    border: none !important
+}
+
+.hvr-back-pulse:hover{
+    background-color: #315eb8 !important;
+}
+
+.hvr-back-pulse:hover .card-text{
+    color: white;
+}

@@ -1,0 +1,99 @@
+
+header {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    background-image: url(/static/imgs/bg.webp);
+    background-position: bottom;
+    background-size: cover;
+    width: 100%;
+    min-height: 90vh;
+}
+
+.h2-title {
+    font-weight: 800;
+}
+
+p {
+    color: gray;
+}
+
+header p {
+    color: white
+}
+
+.spacer-green {
+    background-color: #0ed886 !important;
+    width: 15%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-success {
+    color: #0ed886 !important;
+}
+
+
+/* features */
+
+
+.features {
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+  }
+  
+  .features .card {
+    border: none
+  }
+  
+  .features img {
+    width: 80%
+  }
+  
+  .svg-img {
+    width: 60%
+  }
+  
+  .card {
+    background-color: transparent;
+    border-radius: 20px;
+    border: none;
+    transition: 1s all ease ;
+
+  }
+  
+  /* full size section */
+
+  .full-size{
+      overflow: hidden;
+      background: #3049ab;
+  }
+
+  /* why bevatel */
+
+  
+.why-bevatel {
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+.why-bevatel .card {
+    border: none;
+    height: 100%;
+    transition: 1s all ease ;
+}
+
+.card:hover {
+    border: none;
+    -webkit-box-shadow: 0 5px 9px 0 rgb(56 143 214 / 40%);
+    -moz-box-shadow: 0 5px 9px 0 rgba(56, 143, 214, .4);
+    box-shadow: 0 5px 9px 0 rgb(56 143 214 / 40%) !important}
+
+.why-bevatel .col-md-6 {
+    padding: 20px 10px;
+}

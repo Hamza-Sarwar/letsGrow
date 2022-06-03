@@ -1,0 +1,72 @@
+header {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    background-image: url(/static/imgs/bg.webp);
+    background-position: bottom;
+    background-size: cover;
+    width: 100%;
+    min-height: 90vh;
+}
+
+.h2-title {
+    font-weight: 800;
+}
+
+p {
+    color: gray;
+}
+
+header p {
+    color: white
+}
+
+.spacer-green {
+    background-color: #0ed886 !important;
+    width: 15%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-success {
+    color: #0ed886 !important;
+}
+
+.nav-pills .nav-link{
+    background-color: transparent !important;
+    color: gray !important;
+    padding: 10px 60px;
+    border-bottom: 1px solid gray;
+    border-radius: 0 !important;
+    box-shadow: 0 2px 4px 0 lightgray !important;
+    
+    }
+
+button.nav-link.active{
+    background-color: rgba(48, 75, 172, 1) !important;
+    color: white !important;
+}
+
+.hvr-shutter-in-vertical{
+    background: #e7f1ff;
+}
+
+.hvr-shutter-in-vertical:hover h6{
+    color: rgb(66, 66, 66) !important
+}
+
+.hvr-shutter-in-vertical:before{
+    background: white;
+}
+
+.text-small{
+    box-shadow: 0 3px 7px -2px lightblue !important;
+}
+
+@media(max-width: 450px){
+    .hvr-shutter-in-vertical{
+        background: transparent !important;
+    }
+}
