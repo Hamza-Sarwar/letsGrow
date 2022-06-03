@@ -15,6 +15,8 @@ Including another URLconf
 """
 from django.urls import path
 from . import views
+from django.conf.urls.static import static
+from django.conf import settings
 
 urlpatterns = [
     path('', views.index),
@@ -29,4 +31,4 @@ urlpatterns = [
     path('food-delivery-dispatching.html', views.food_delivery),
     path('photo-manipulation.html', views.photo_manipulation),
     path('discord-server.html', views.discord_server),
-]
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
