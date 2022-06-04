@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-g)yf3rb#klf)%fx7^2$x60fy@vg%96_=goqjx!1#_hbikm!n)o'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['letsgrow.one', 'www.letsgrow.one','localhost', '127.0.0.1' ]
 
