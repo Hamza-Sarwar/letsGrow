@@ -51,3 +51,7 @@ def photo_manipulation(request):
 def discord_server(request):
 
     return render(request, 'discord-server.html')
+
+def dispute_resolution(request):
+
+    return render(request, 'dispute-resolution.html')

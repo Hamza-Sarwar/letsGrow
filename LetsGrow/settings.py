@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-g)yf3rb#klf)%fx7^2$x60fy@vg%96_=goqjx!1#_hbikm!n)o'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['letsgrow.one', 'www.letsgrow.one','localhost', '127.0.0.1' ]
 
@@ -123,7 +123,8 @@ USE_TZ = True
 #STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 STATIC_URL = '/static/' # the path in url
-#STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+#STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
+
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'

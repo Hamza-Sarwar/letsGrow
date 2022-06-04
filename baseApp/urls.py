@@ -31,4 +31,5 @@ urlpatterns = [
     path('food-delivery-dispatching.html', views.food_delivery),
     path('photo-manipulation.html', views.photo_manipulation),
     path('discord-server.html', views.discord_server),
+    path('dispute-resolution.html', views.dispute_resolution),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
