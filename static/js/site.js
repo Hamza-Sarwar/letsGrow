@@ -44,26 +44,8 @@ catchermatcher();
 var $e = function (id) {
     return document.getElementById(id);
 };
-function updatephone() {
-    let maphonez = $e("bevaupphone");
-    let maphonez2 = $e("bevaupphone2");
-    let maphonez3 = $e("bevafloatcall");
-    if (maphonez === undefined)
-        return;
-    fetch("/api/phone.php", {cache: "no-cache"})
-            .then(response => {if(!response.ok)throw Error(response.statusText);return response.text();})
-            .then(data => {
-                maphonez.innerHTML = data;
-                maphonez.href = "tel:" + data;
-                maphonez2.href = "tel:" + data;
-                maphonez3.href = "tel:" + data;
-                console.log(data);
-            })
-            .catch(error => {
-                console.log(error);
-            });
-}
-updatephone();
+
+
 //thankyou
 thankyou="/en/thank-you";
 if(lang == "ar")thankyou="شكرا-لك";
@@ -113,7 +95,7 @@ function sendlead(e) {
     email = $e("rqstlead_email").value;
     msg = $e("rqstlead_description").value;
     let leaddata = {name: name, phone: phone, email: email, message: msg, lang: lang};
-    $e("rqstlead_info").innerHTML = (lang=="en"?"Sending ....":"جاري الارسال ....");
+    $e("rqstlead_info").innerHTML = (lang=="en"?"Sending ....":".");
     fetch("/api/", {method: "post", cache: "no-cache", body: JSON.stringify(leaddata), headers: {"Content-Type": "application/json", "Accept": "application/json"}})
             .then(response => response.text())
             .then(data => {
