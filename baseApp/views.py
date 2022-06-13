@@ -17,8 +17,7 @@ def index(request):
                 subject=name,
                 message=message,
                 from_email=email,
-                recipient_list=['hamzasarwar129@gmail.com', 'saifnoor129@gmail.com'],
-                html_message="Thanks for contacting us, We will be in touched soon"
+                recipient_list=['hamzasarwar129@gmail.com', 'saifnoor129@gmail.com']
             )
             messages.success(request, 'Successfully Sent The Message!')
     return render(request, 'index.html')
@@ -48,8 +47,7 @@ def contact_us(request):
                 subject=name,
                 message=message,
                 from_email=email,
-                recipient_list=['hamzasarwar129@gmail.com', 'saifnoor129@gmail.com'],
-                html_message="Thanks for contacting us, We will be in touched soon"
+                recipient_list=['hamzasarwar129@gmail.com', 'saifnoor129@gmail.com']
             )
             messages.success(request, 'Successfully Sent The Message!')
 
